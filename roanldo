@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bóng Đá - Đam Mê Bất Tận</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- THANH ĐIỀU HƯỚNG CHÍNH -->
+<header class="site-header" id="top">
+<div class="brand">FootballWorld</div>
+<nav class="main-nav" aria-label="Điều hướng chính">
+<a href="#hero">Trang chủ</a>
+<a href="#about">Giới thiệu</a>
+<a href="#gallery">Thư viện</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+</header>
+<main>
+<!-- KHU VỰC HERO ĐẦU TRANG -->
+
+<section class="hero" id="hero" style="background-image: linear-
+gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('bong-da-la-gi.jpg'); background-size:
+
+cover; background-position: center; color: white;">
+<p class="eyebrow">Góc nhìn đam mê về môn thể thao vua</p>
+<h1 id="main-title">Bóng Đá - Nhịp Đập Sân Cỏ</h1>
+<p class="intro">Nơi kết nối những tâm hồn yêu bóng đá, chia sẻ những khoảnh khắc
+lịch sử, chiến thuật đỉnh cao và tinh thần thể thao bất diệt.</p>
+<a class="primary-button" href="#about">Khám phá ngay</a>
+</section>
+<!-- PHẦN GIỚI THIỆU CHỦ ĐỀ -->
+<section class="section about-section" id="about">
+<h2>Vì sao tôi yêu Bóng Đá?</h2>
+<p>Bóng đá không chỉ là một môn thể thao, mà là thứ ngôn ngữ toàn cầu gắn kết hàng
+triệu con người. Tôi chọn chủ đề này để tạo nên một không gian nhỏ, nơi những người hâm mộ
+có thể cùng nhìn lại những trận cầu nảy lửa, những pha làm bàn ngoạn mục và những câu
+chuyện truyền cảm hứng từ sân cỏ.</p>
+<p>Trang web hướng tới tất cả những ai có dòng máu đam mê sân cỏ dịch chuyển trong
+người. Tại đây, bạn sẽ tìm thấy những phân tích chiến thuật chuyên sâu, những câu chuyện
+hậu trường chưa kể và góc nhìn đa chiều về các giải đấu lớn trên thế giới.</p>
+<div style="text-align: center; margin: 20px 0;">
+
+<img src="ronaldo_0.jpg" alt="Cristiano Ronaldo ăn mừng bàn thắng" style="max-
+width: 100%; height: auto; border-radius: 8px;">
+
+2
+
+<p style="font-style: italic; color: #555; margin-top: 8px; font-size:
+9.5pt;">Tinh thần vươn lên không ngừng của các siêu sao thế giới.</p>
+</div>
+<ul class="topic-list">
+<li><strong>Cập nhật cảm xúc:</strong> Tái hiện lại những khoảnh khắc vỡ òa,
+những giọt nước mắt và nụ cười chiến thắng.</li>
+<li><strong>Biểu tượng huyền thoại:</strong> Khám phá hành trình vươn lên của
+những tượng đài lớn như Cristiano Ronaldo.</li>
+<li><strong>Kết nối cộng đồng:</strong> Tạo sân chơi giao lưu, thảo luận lành
+mạnh cho các chiến thuật gia "tại gia".</li>
+</ul>
+</section>
+<!-- BẢNG PHONG CÁCH MÀU SẮC -->
+<section class="section style-guide" id="style-guide">
+<h2>Bảng phong cách trang web</h2>
+<div class="swatches">
+<div class="swatch swatch-primary" style="background-color: #1e4620; color:
+white;">Xanh cỏ (Chính)</div>
+<div class="swatch swatch-accent" style="background-color: #e65c00; color:
+white;">Cam lửa (Nhấn)</div>
+<div class="swatch swatch-soft" style="background-color: #f4f7f4; color:
+#333;">Xám nhạt (Nền)</div>
+</div>
+</section>
+</main>
+</body>
+</html>
