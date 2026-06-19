@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyWeb - 2. Selector, class, id</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="brand">MyWeb</div>
+  <nav class="main-nav" aria-label="Điều hướng chính">
+    <a href="#hero">Trang chủ</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#gallery">Thư viện</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <p class="eyebrow">Website cá nhân theo chủ đề tự chọn</p>
+    <h1 id="main-title">Hành trình xây dựng MyWeb</h1>
+    <p class="intro">Thay nội dung này bằng chủ đề cá nhân của em: du lịch, ẩm thực, âm nhạc, thể thao, công nghệ, học tập hoặc một sở thích riêng.</p>
+    <a class="primary-button" href="#about">Khám phá chủ đề</a>
+  </section>
+
+  <section class="section about-section" id="about">
+    <h2>Giới thiệu chủ đề</h2>
+    <p>Viết 2 đến 3 đoạn giới thiệu vì sao em chọn chủ đề này, đối tượng người xem là ai và website đem lại giá trị gì.</p>
+    <ul class="topic-list">
+      <li>Điểm nổi bật 1 của chủ đề cá nhân.</li>
+      <li>Điểm nổi bật 2 gắn với hình ảnh minh họa.</li>
+      <li>Điểm nổi bật 3 thể hiện phong cách riêng.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
