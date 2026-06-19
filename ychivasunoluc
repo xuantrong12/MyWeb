@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ý Chí Sân Cỏ - Vượt Qua Nghịch Cảnh</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body style="background-color: #f7f9fa; color: #2c3e50;">
+
+<header class="site-header" id="top" style="background-color: #2c3e50; color: white;">
+  <div class="brand" style="color: #e74c3c; font-weight: bold; letter-spacing: 1px;">THE_RESILIENCE</div>
+  <nav class="main-nav" aria-label="Điều hướng chính">
+    <a href="#hero" style="color: white;">Trang chủ</a>
+    <a href="#about" style="color: white;">Tinh thần</a>
+    <a href="#gallery" style="color: white;">Thử thách</a>
+    <a href="#contact" style="color: white;">Liên hệ</a>
+  </nav>
+</header>
+
+<main>
+  <!-- SECTION 1: HERO -->
+  <section class="hero" id="hero" style="background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('bong-da-la-gi.jpg'); background-size: cover; background-position: center; color: white; padding: 70px 20px; text-align: center;">
+    <p class="eyebrow" style="color: #f1c40f; text-transform: uppercase; font-weight: bold;">Phía sau ánh hào quang sân cỏ</p>
+    <h1 id="main-title" style="font-size: 32px; margin: 15px 0;">Bản Lĩnh Vượt Qua Thử Thách</h1>
+    <p class="intro" style="max-width: 700px; margin: 0 auto 25px auto;">Thành công không chỉ được đo bằng những chiếc cúp, nó được định nghĩa bởi cách bạn đứng dậy sau mỗi lần vấp ngã và chấn thương đau đớn.</p>
+    <a class="primary-button" href="#about" style="background-color: #e74c3c; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">Tìm hiểu câu chuyện</a>
+  </section>
+
+  <!-- SECTION 2: ABOUT -->
+  <section class="section about-section" id="about" style="padding: 50px 20px; max-width: 800px; margin: 0 auto;">
+    <h2 style="color: #2c3e50; text-align: center; font-size: 26px;">Cái Giá Của Sự Vĩ Đại</h2>
+    <p>Để đạt đến đỉnh cao thế giới, các cầu thủ phải đánh đổi bằng mồ hôi, nước mắt và những chấn thương nghiêm trọng đe dọa sự nghiệp. Mục đích của trang web này là nhìn sâu vào khía cạnh khắc nghiệt của thể thao, nhằm truyền tải bài học lớn về lòng kiên trì và ý chí kiên định cho người xem.</p>
+    
+    <p>Nội dung hướng tới việc truyền cảm hứng sống tích cực, không chỉ cho những người yêu bóng đá mà cho bất kỳ ai đang phải đối mặt với khó khăn trong cuộc sống thường nhật.</p>
+    
+    <!-- Tích hợp hình ảnh chấn thương nén đau của Ronaldo -->
+    <div style="text-align: center; margin: 35px 0;">
+      <img src="3-28-2019-4-22-51-pm-660-1553765012-416-width660height419.jpg" alt="Cristiano Ronaldo chấn thương nén đau trên sân cỏ" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <p style="font-style: italic; color: #7f8c8d; margin-top: 10px; font-size: 14px;">Mỗi vết sẹo chấn thương là một nấc thang tôi luyện nên ý chí của một huyền thoại.</p>
+    </div>
+
+    <ul class="topic-list" style="padding-left: 20px; font-size: 16px;">
+      <li style="margin-bottom: 12px;"><strong>Đối mặt nghịch cảnh:</strong> Thấu hiểu những đau đớn thể xác và áp lực tinh thần mà cầu thủ phải chịu đựng.</li>
+      <li style="margin-bottom: 12px;"><strong>Hành trình hồi phục:</strong> Khám phá nỗ lực không ngừng nghỉ trong phòng gym để trở lại sân cỏ mạnh mẽ hơn.</li>
+      <li style="margin-bottom: 12px;"><strong>Bài học cuộc sống:</strong> Biến tinh thần thép của các siêu sao thành động lực giúp bạn vượt qua thử thách của chính mình.</li>
+    </ul>
+  </section>
+
+  <!-- SECTION 3: STYLE GUIDE -->
+  <section class="section style-guide" id="style-guide" style="padding: 30px 20px; background-color: #eaeded; text-align: center;">
+    <h2 style="margin-bottom: 20px;">Bảng màu trầm lắng & Mạnh mẽ</h2>
+    <div class="swatches" style="display: flex; justify-content: center; gap: 15px;">
+      <div class="swatch" style="background-color: #2c3e50; color: white; padding: 15px; border-radius: 4px; flex: 1; max-width: 150px;">Xanh Thép (Chính)</div>
+      <div class="swatch" style="background-color: #e74c3c; color: white; padding: 15px; border-radius: 4px; flex: 1; max-width: 150px;">Đỏ Gai Góc (Nhấn)</div>
+      <div class="swatch" style="background-color: #f7f9fa; color: #2c3e50; padding: 15px; border-radius: 4px; border: 1px solid #bdc3c7; flex: 1; max-width: 150px;">Xám Nhạt (Nền)</div>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
