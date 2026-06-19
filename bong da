@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyWeb - 1. Gắn CSS ngoài</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="brand">MyWeb</div>
+  <nav class="main-nav" aria-label="Điều hướng chính">
+    <a href="#hero">Trang chủ</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#gallery">Thư viện</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <p class="eyebrow">Website cá nhân theo chủ đề tự chọn</p>
+    <h1 id="main-title">Hành trình xây dựng MyWeb</h1>
+    <p class="intro">Thay nội dung này bằng chủ đề cá nhân của em: du lịch, ẩm thực, âm nhạc, thể thao, công nghệ, học tập hoặc một sở thích riêng.</p>
+    <a class="primary-button" href="#about">Khám phá chủ đề</a>
+  </section>
+</main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyWeb - Thế Giới Túc Cầu</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="brand">FootballZone</div>
+  <nav class="main-nav" aria-label="Điều hướng chính">
+    <a href="#hero">Trang chủ</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#gallery">Thư viện</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <p class="eyebrow">Website cá nhân về chủ đề Thể thao</p>
+    <h1 id="main-title">Bóng Đá - Môn Thể Thao Vua</h1>
+    <p class="intro">Nơi chia sẻ những kiến thức, tin tức nóng hổi và niềm đam mê bất tận với những trận cầu rực lửa trên khắp hành tinh.</p>
+    
+    <div class="featured-image">
+      <img src="https://api.fifavn.org/uploads/2025/08/bong-da-la-gi.jpg"alt="Quả bóng đá trên sân cỏ" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 25px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+    </div>
+
+    <a class="primary-button" href="#about">Khám phá ngay</a>
+  </section>
+</main>
+</body>
+</html>
