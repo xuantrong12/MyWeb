@@ -1,1 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #111827;
+}
+
+
+/* Header */
+
+.site-header {
+    background: #111827;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand {
+    color: #fbbf24;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: #fbbf24;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bong-da-la-gi.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    margin: 15px 0;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+.primary-button {
+    display: inline-block;
+    background: #dc2626;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.primary-button:hover {
+    background: #b91c1c;
+}
+
+
+/* Sections */
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+
+/* Gallery */
+
+.gallery-highlight {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: #111827;
+    border-radius: 10px;
+}
+
+.gallery-highlight img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.gallery-highlight p {
+    color: #fbbf24;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.gallery-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+
+/* Buttons */
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #dc2626;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.filter-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Form */
+
+form input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* Search */
+
+#searchInput {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+/* Hidden class */
+
+.hidden {
+    display: none;
+}
+
+
+/* Theme */
+
+.dark-mode {
+    background: #111827;
+    color: #f8fafc;
+}
+
+.dark-mode .gallery-item {
+    background: #1f2937;
+    color: white;
+}
+
+.warm-mode {
+    background: #fff7ed;
+    color: #111827;
+}
+
+
+/* Menu Button */
+
+#menuToggle {
+    display: none;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    #menuToggle {
+        display: block;
+    }
+    .main-nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .main-nav.active {
+        display: flex;
+    }
+}
