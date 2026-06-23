@@ -323,9 +323,7 @@ contactForm.addEventListener(
 
         formMessage.style.color =
             "green";
-
         contactForm.reset();
-
     }
 );
 ```
